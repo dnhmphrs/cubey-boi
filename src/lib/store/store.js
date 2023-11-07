@@ -20,7 +20,7 @@ export const visual = writable('space');
 
 export const xPlane = writable({
 	name: 'X PLANE',
-	visible: false,
+	visible: true,
 	min: 0,
 	max: 100,
 	value: 50
