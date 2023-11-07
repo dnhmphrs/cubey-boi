@@ -77,20 +77,20 @@ body {
 	background-position: 0 0, 5px 5px;
 } */
 
-.grain-overlay {
-	position: fixed; /* Use fixed to cover the whole screen at all times */
+/* .grain-overlay {
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	pointer-events: none; /* Allows clicks to pass through */
-	background-image: url('/sand.jpg'); /* This is the texture image */
-	background-repeat: repeat; /* Repeat the texture across the whole screen */
-	opacity: 0.05; /* Adjust to your liking */
-	mix-blend-mode: multiply; /* Create the multiply effect */
-	z-index: 100; /* Ensure it's above all content but below popups/modals */
+	pointer-events: none;
+	background-image: url('/sand.jpg');
+	background-repeat: repeat;
+	opacity: 0.05;
+	mix-blend-mode: multiply;
+	z-index: 100;
 	background-size: contain;
-}
+} */
 
 html.dark-mode body div.grain-overlay {
 	/* mix-blend-mode: multiply; */
