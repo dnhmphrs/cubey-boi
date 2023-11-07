@@ -262,7 +262,7 @@
             color.rgb = colorShift;
             color.a = baseOpacity;
 					} else {
-						color = vec4(0.168, 0.168, 0.168, 1.0);
+						discard;
         }
     }
 `;
