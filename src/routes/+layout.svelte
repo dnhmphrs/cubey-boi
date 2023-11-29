@@ -51,8 +51,8 @@
 </script>
 
 <svelte:head>
-	<title>PERLIN CUBEY BOI</title>
-	<meta name="description" content="CUBEY BOI. PERLIN RAYMARCHING EXPERIMENT" />
+	<title>PERLIN CUBICAL BOI</title>
+	<meta name="description" content="CUBICAL BOI. PERLIN RAYMARCHING EXPERIMENT FOR RAUM" />
 
 	<link
 		rel="preload"
